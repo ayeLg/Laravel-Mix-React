@@ -1,0 +1,20 @@
+To install yarn -> run - npm install --global yarn
+After that -> run - npm install
+To install react / react-dom / react-router-dom@6 -> run - yarn add react react-dom react-router-dom@6
+To mix react file -> run - yarn watch -> change like that mix.js("resources/js/test.js", "public/js").react(); in webpack.mix.js
+
+webpack.mix.js မှာ mix လုပ်ချင်တဲ့ file ကိုရေးပီးသွားလို့ yarn watch လုပ်လိုက်ရင် public folder အောက်မှာ js/test.js file ဆိုပီးဖြစ်သွားမယ်။
+
+
+
+
+Error
+------
+Product ကို delete လုပ်လိုက်ရင် product add transcation နဲ့ order မှာ error တက်မယ်
+
+
+Unfinish
+--------
+Product remove transaction ကျန်သေးတယ်။
+
+
